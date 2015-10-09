@@ -1,0 +1,88 @@
+body{
+	margin-top: 51px;
+
+}
+@media screen and (max-width: 992px){
+	#product-image{
+		width: 100% !important;
+		max-width: 100% !important;
+		height: auto;
+	}
+}
+* {
+	outline: none !important;
+}
+.background{
+
+	background-image: url('../images/online-shopping-ecommerce-ss-1920.png') !important;
+	background-position: center;
+}
+.fancy-font{
+	font: 'Lobster Two', Helvetica, sans-serif !important;
+  color: #2a1900!important;
+}
+.nav >li > .navmenu{
+
+	color: #2a1900 !important;
+}
+.nav > li > .active{
+	background-color: rgba(0, 0, 0, 0.3); !important;
+	outline: none !important;
+	color: white !important;
+}
+.nav > li > .navmenu:hover{
+	outline: none !important;
+	color: red !important;
+}
+
+.welcome{
+	box-sizing: border-box;
+	color: #2a1900;
+	margin-top: 20%;
+	margin-bottom: 15%;
+	padding: 2%;
+	padding-bottom: 6%;  
+	width: 50%;
+	height: auto;
+	position: center;
+	margin-left: 23%;
+	border: 1px solid rgba(0, 55 , 40 , 0.3);
+  background: -webkit-linear-gradient(left,rgba(0,0,0,0.4),rgba(186,186,186,0.4),rgba(0,0,0,0.4)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,rgba(0,0,0,0.4),rgba(186,186,186,0.4),rgba(0,0,0,0.4)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,rgba(0,0,0,0.4),rgba(186,186,186,0.4),rgba(0,0,0,0.4)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right,rgba(0,0,0,0.4),rgba(186,186,186,0.4),rgba(0,0,0,0.4)); /* Standard syntax */
+}
+.catalog-style{
+	overflow-y: auto;
+	width: 75%;
+	margin-bottom: 50px;
+	}
+.catalog-items{
+	box-sizing: border-box;
+	margin-top: 20px;
+	/*border: 1px solid black;*/
+	box-shadow: 5px black;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 0px;
+	width: 30% !important;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+	.catalog-items{
+		width: 40% !important;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.catalog-items{
+		width: 90% !important;
+	}
+}
+div.catalog-items:hover{
+	cursor: pointer;
+}
+.hidepart{
+	display: none;
+}
+
